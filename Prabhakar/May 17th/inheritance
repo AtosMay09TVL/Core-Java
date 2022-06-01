@@ -1,0 +1,45 @@
+import java.util.*;
+
+ 
+public class inheritence {
+	public static void main(String[] args) {
+		
+		
+		int Start=0,End=0,Mul=0,Result;
+		Scanner A=new Scanner(System.in);
+		System.out.println("Mulitplication Table");
+		System.out.println("********************");
+		try
+		{
+		System.out.println("Enter the Start value");
+		Start=A.nextInt();
+		System.out.println("Enter the End value");
+		End=A.nextInt();
+		System.out.println("Enter the Multiply value");
+		Mul=A.nextInt();
+		if(Start<0 ||End<0 ||Mul<0)
+		{
+			throw new IllegalArgumentException();
+		}
+		}
+		catch (IllegalArgumentException r) 
+		{
+			System.out.println("Enter Only Positive Numbers !!");
+		}
+		catch(InputMismatchException G)
+		
+		{
+			
+			System.out.println("Enter Only Numbers !!");
+		}
+		
+		
+		for(int i=Start;i<=End;i++)
+		{
+			Result=i*Mul;
+			System.out.println(" "+i+" * "+Mul+" = "+Result);
+		}
+	
+	}
+
+}
