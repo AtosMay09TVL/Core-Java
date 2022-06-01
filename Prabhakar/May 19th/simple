@@ -1,0 +1,11 @@
+public class example1 {
+	public static void main(String[] args) {
+		long i;
+		System.out.println("no.s between 1 to 100 = " );
+		for(i=1;i<=100;i++)
+			
+		System.out.println(i);
+	}
+	
+
+}
