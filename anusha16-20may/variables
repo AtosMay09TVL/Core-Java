@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package basic;
+
+/**
+ * @author syntel
+ *
+ */
+public class Variables {
+
+	/**
+	 * @param args
+	 */
+	int a=10,b=40;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int c;
+		Variables v= new Variables();
+		c=v.a+v.b;
+		System.out.println("addition of"+v.a+"and"+v.b+ "is"+ c);
+
+	}
+
+}
