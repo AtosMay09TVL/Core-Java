@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Pattern1 {
+	public static void main(String[] args) {
+         int a=8,int b=3
+        System.out println("firstvalue"+a);
+        System.out println("secondvalue"+b);
+        System.out println("sum is"+a+b);
+        System.out println("differentis"+(a-b));
+        System.out println("multiplication is "+a*b);
+        System.out println("cousent"+a/b);
+        System.out println("reminder is"+a%b);
+}
+}
