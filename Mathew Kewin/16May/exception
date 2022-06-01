@@ -1,0 +1,28 @@
+package exception;
+
+import java.util.Scanner;
+
+public class Exception_Number {
+
+	public static void main(String[] args){
+		Scanner sys=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int n=sys.nextInt();
+		num(n);
+
+	}
+	
+	public static void num(int n) 
+	{
+		if(n<0)
+		{
+			try {
+				throw new InvalidNumberException("Please enter the Positive Number");
+			} catch (InvalidNumberException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+}
