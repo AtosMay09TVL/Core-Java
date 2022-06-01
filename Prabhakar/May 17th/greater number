@@ -1,0 +1,25 @@
+import java.util.*;
+public class find_greater {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+		Scanner A=new Scanner(System.in);
+		System.out.println("Enter the  value 1");
+		a=A.nextInt();
+		System.out.println("Enter the value 2");
+		b=A.nextInt();
+		if(a>b)
+		   System.out.println("value "+ a +" is greater then "+ b);
+		   else
+			   System.out.println("value"+ b + " is greater then "+a);
+		
+				
+		
+
+	}
+
+}
