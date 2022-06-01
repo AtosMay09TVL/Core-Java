@@ -1,0 +1,24 @@
+
+class BaseClass 
+{
+    public void display() 
+    {
+      System.out.println("BaseClass::Display");
+   }
+}
+class DerivedClass extends BaseClass 
+{
+   public void print() 
+   {
+      System.out.println("DerivedClass::print");
+   }
+}
+ class Main 
+ {
+   public static void main(String[] args) 
+   {
+        DerivedClass d1 = new DerivedClass();
+        d1.display();   
+        d1.print();     
+   }
+}
