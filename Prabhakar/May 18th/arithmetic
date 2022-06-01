@@ -1,0 +1,52 @@
+import java.util.*;
+
+public class Student {
+
+	public static void main(String[] args) {
+		//int B;
+		System.out.println("Welcome to my Page");
+		System.out.println("*******************");
+		System.out.println("Enter Option");
+		Scanner B=new Scanner(System.in);
+		
+		System.out.println("\n 1.Addition \n 2.Substraction \n 3.Multiplication");
+		//Student A=new Student()
+		int A=B.nextInt();
+		
+	if(A==1)
+	{
+		System.out.println("Enter First Value : ");
+		int A1=B.nextInt();
+		System.out.println("Enter Second Value : ");
+		int A2=B.nextInt();
+		System.out.println("Addition is : "+(A1+A2));
+	}
+	if(A==2)
+	{
+		System.out.println("Enter First Value : ");
+		int A3=B.nextInt();
+		System.out.println("Enter Second Value : ");
+		int A4=B.nextInt();
+		System.out.println("Substraction is : "+(A4-A3));
+	}
+	if(A==3)
+	{
+		System.out.println("Enter First Value : ");
+		int A5=B.nextInt();
+		System.out.println("Enter Second Value : "); 
+		int A6=B.nextInt();
+		System.out.println("Multiplication is : "+(A5*A6));
+	}
+	System.out.println("Do you Want to Continue Again(y/n)?:");
+	String C=B.nextLine();	
+	if(C=="y")
+	{
+		System.out.println("no options");
+	}
+	else 
+		System.out.println("Thank You");
+	
+	}
+	
+
+}
