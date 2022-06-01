@@ -1,0 +1,33 @@
+package org.data;
+
+public class IOB {
+public void empName() {
+	System.out.println("john");
+
+	}
+public void empId() {
+	System.out.println("jebas");
+
+}
+
+}
+0package org.data;
+
+public class HDFC extends IOB{
+	@Override
+	public void empName() {
+		System.out.println("567");
+	}
+	@Override
+	public void empId() {
+		System.out.println("123");
+
+	}
+	public static void main(String[] args) {
+	HDFC h = new HDFC();
+	h.empId();
+	h.empName();
+
+	}
+
+}
