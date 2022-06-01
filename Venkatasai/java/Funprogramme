@@ -1,0 +1,15 @@
+package Atos;
+
+public class Funprogramer {
+
+	public static void main(String[] args) {
+		int width = 25;
+		int hight = 82;
+		int area= width*hight;
+		System.out.println("Area of rectangle=" +  area);
+		// TODO Auto-generated method stub
+
+	}
+
+
+	}
