@@ -1,0 +1,27 @@
+package array;
+//adding a element in a array
+public class Arm5 {
+	public static void main(String[] args)
+	{
+		int x[]= {15,20,30,40};
+		int len=x.length;
+		int add=60;
+		int y[]=new int[len+1];
+		int i;
+		for(i=0;i<x.length;i++)
+		{
+			y[i]=x[i];
+			System.out.println(x[i]);
+		}
+		 y[i]=add;
+		 x=y;
+		 System.out.println("----------------");
+		 for(int j=0;j<x.length;j++)
+		 {
+			 System.out.println(x[j]);
+		 }
+		 
+		
+	}
+
+}
