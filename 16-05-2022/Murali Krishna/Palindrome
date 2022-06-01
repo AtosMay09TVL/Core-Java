@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Pal {
+	public static void main(String[] args)
+	{	Scanner s=new Scanner(System.in);
+		System.out.println("enter the number");
+		int n=s.nextInt();
+		int temp=n,rev=0,digits;
+		while(temp!=0)
+		{
+			digits=temp%10;
+			rev=(rev*10)+digits;
+			temp=temp/10;
+		}
+		System.out.println(rev);
+		if(rev==n)
+		{
+		System.out.println("IT IS A PALINDROME NUMBER");	
+		}
+		else
+			System.out.println("Not a palindrome");
+	}
