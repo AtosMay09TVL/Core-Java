@@ -1,0 +1,111 @@
+import java.util.Scanner;
+
+public class student {
+	public static void main(String[] args)
+	{
+		Scanner s= new Scanner(System.in);
+		System.out.println("STUDENT NAME: manoj");
+		System.out.println("enter your subject choice");
+		System.out.println("1 for tamil");
+		System.out.println("2 for english");
+		System.out.println("3 for science");
+		System.out.println("4 for maths");
+		int choice=s.nextInt();
+		switch(choice)
+		{
+		case 1:
+			System.out.println("enter your tamil marks");
+			int tam=s.nextInt();
+			if(tam>=90)
+			{
+			System.out.println("TAMIL MARKS="+tam+" "
+					+ "A grade");
+			}
+			else if(tam>70&&tam<90)
+			{
+				System.out.println("b grade");
+			}
+			else if(tam>40&&tam<70)
+			{
+				System.out.println("C grade");
+			}
+			else
+			{
+				System.out.println("fail  marks="+tam);
+			}
+			break;
+		case 2:
+			System.out.println("enter your english marks");
+			int eng=s.nextInt();
+			if(eng>=90)
+			{
+			System.out.println("ENGLISH MARKS="+eng+" "
+					+ "A grade");
+			}
+			else if(eng>70&&eng<90)
+			{
+				System.out.println("b grade");
+			}
+			else if(eng>40&&eng<70)
+			{
+				System.out.println("C grade");
+			}
+			else
+			{
+				System.out.println("fail  marks="+eng);
+			}
+			break;
+		case 3:
+			System.out.println("enter your science marks");
+			int sci=s.nextInt();
+			if(sci>=90)
+			{
+			System.out.println("TAMIL MARKS="+sci+" "
+					+ "A grade");
+			}
+			else if(sci>70&&sci<90)
+			{
+				System.out.println("b grade");
+			}
+			else if(sci>40&&sci<70)
+			{
+				System.out.println("C grade");
+			}
+			else
+			{
+				System.out.println("fail  marks="+sci);
+			}
+			break;
+		case 4:
+			System.out.println("enter your maths marks");
+			int mat=s.nextInt();
+			if(mat>=90)
+			{
+			System.out.println("maths MARKS="+mat+" "
+					+ "A grade");
+			}
+			else if(mat>70&&mat<90)
+			{
+				System.out.println("b grade");
+			}
+			else if(mat>40&&mat<70)
+			{
+				System.out.println("C grade");
+			}
+			else
+			{
+				System.out.println("fail  marks="+mat);
+			}
+			break;
+		case 5:
+			int total=s.nextInt();
+			default:
+			{
+				System.out.println("invalid statement");
+			}
+				
+			
+		}
+	}
+
+}
