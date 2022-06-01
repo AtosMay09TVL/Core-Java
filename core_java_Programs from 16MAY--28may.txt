@@ -1,0 +1,168 @@
+package core_java;
+
+
+
+import java.util.Scanner;
+
+public class Basic {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+}
+package core_java;
+public class dhanu {class Main {
+
+	  public static void main(String[] args) {
+	    
+	    System.out.println("Enter two numbers");
+	    int first = 10;
+	    int second = 20;
+	    
+	    System.out.println(first + " " + second);
+
+	    // add two numbers
+	    int sum = first + second;
+	    System.out.println("The sum is: " + sum);
+	  }
+	}
+
+}
+package core_java;
+
+public class addition {
+	class Main {
+
+		  public static void main(String[] args) {
+		    
+		    System.out.println("Enter two numbers");
+		    int first = 10;
+		    int second = 20;
+		    
+		    System.out.println(first + " " + second);
+
+		    // add two numbers
+		    int sum = first + second;
+		    System.out.println("The sum is: " + sum);
+		  }
+		}
+}
+package core_java;
+
+public class swapping {
+
+    public static void main(String[] args) {
+
+        float first = 1.20f, second = 2.45f;
+
+        System.out.println("--Before swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+
+        // Value of first is assigned to temporary
+        float temporary = first;
+
+        // Value of second is assigned to first
+        first = second;
+
+        // Value of temporary (which contains the initial value of first) is assigned to second
+        second = temporary;
+
+        System.out.println("--After swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+    }
+}
+
+package core_java;
+
+ import java.util.Scanner;
+
+public class Evenodd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    
+}
+
+
+
+}
+package core_java;
+
+public class Main {
+
+	  public static void main(String[] args) {
+
+	    // year to be checked
+	    int year = 1996;
+	    boolean leap = false;
+
+	    // if the year is divided by 4
+	    if (year % 4 == 0) {
+
+	      // if the year is century
+	      if (year % 100 == 0) {
+
+	        // if year is divided by 400
+	        // then it is a leap year
+	        if (year % 400 == 0)
+	          leap = true;
+	        else
+	          leap = false;
+	      }
+	      
+	      // if the year is not century
+	      else
+	        leap = true;
+	    }
+	    
+	    else
+	      leap = false;
+
+	    if (leap)
+	      System.out.println(year + " is a leap year.");
+	    else
+	      System.out.println(year + " is not a leap year.");
+	  }
+	}
+
+
+package core_java;
+
+public class Largest {
+
+    public static void main(String[] args) {
+
+        double n1 = -4.5, n2 = 3.9, n3 = 2.5;
+
+        if( n1 >= n2 && n1 >= n3)
+            System.out.println(n1 + " is the largest number.");
+
+        else if (n2 >= n1 && n2 >= n3)
+            System.out.println(n2 + " is the largest number.");
+
+        else
+            System.out.println(n3 + " is the largest number.");
+    }
+}
+
