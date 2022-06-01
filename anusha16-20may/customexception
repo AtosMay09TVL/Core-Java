@@ -1,0 +1,23 @@
+package basic;
+
+public class CustomException extends Exception {
+
+	String msg;
+	CustomException(String s)
+	{
+		super(s);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			throw new CustomException("message");
+		}
+		catch(CustomException e)
+		{
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}
