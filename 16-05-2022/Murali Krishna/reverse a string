@@ -1,0 +1,12 @@
+public class Rev1 {
+	public static void main(String[] args)
+	{
+	String s= "Atos";
+	String b= "";
+		for(int i=s.length()-1;i>=0;i--)
+		{
+		String k=b+s.charAt(i);
+		System.out.print(s.charAt(i));
+		}
+	}
+}
