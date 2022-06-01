@@ -1,0 +1,22 @@
+package basic;
+
+public class Comparision {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b;
+		a=10;
+		b=20;
+		boolean d=a<b;
+		boolean e=a==b;
+		boolean f=a!=b;
+		System.out.println("value of A is "+a+"and B is "+b);
+		System.out.println("Result of A and B if A greater than B is "+d);
+		System.out.println("Result of A and B are equal " +e);
+		System.out.println("Result if A and B are inequal"+f);
+		
+		
+
+	}
+
+}
