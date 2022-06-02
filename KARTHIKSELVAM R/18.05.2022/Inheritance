@@ -1,7 +1,7 @@
 import java.util.Scanner;
  
 
-	 class Dad   //parent class
+	 class Dad   
 			{
 				int a,b,c;
 				void Geting_Input()
@@ -13,7 +13,7 @@ import java.util.Scanner;
 					b=A.nextInt();
 					}
 				}
-class Mom extends Dad  //child class
+class Mom extends Dad  
 		{
 			
 			void abc()
@@ -22,14 +22,12 @@ class Mom extends Dad  //child class
 					System.out.println((a+b));
 				}
 		}
-//main class
 public class Inheritance {
 
 	
 
 	 public static  void main(String[] args) {
 		 Mom ob=new Mom();
-		// ob.Geting_Input();
 		 ob.abc();
 		 
 	 
