@@ -1,0 +1,70 @@
+import java.util.Scanner;
+ 
+
+	 class Dad   //parent class
+			{
+				int a,b,c;
+				void Geting_Input()
+					{
+					Scanner A=new Scanner(System.in);
+					System.out.println("Enter Value 1 : ");
+					a=A.nextInt();
+					System.out.println("Enter Value 2 : ");
+					b=A.nextInt();
+					}
+				}
+class Mom extends Dad  //child class
+		{
+			
+			void abc()
+				{
+				Geting_Input();
+					System.out.println((a+b));
+				}
+		}
+//main class
+public class Inheritance {
+
+	
+
+	 public static  void main(String[] args) {
+		 Mom ob=new Mom();
+		// ob.Geting_Input();
+		 ob.abc();
+		 
+	 
+}
+}
+	// TODO Auto-generated method stub
+/*	int a,b,c;
+	
+	if(a>b)
+		
+		System.out.println(" Value " +a+ " is bigger than Value "+b);
+		
+	else
+		System.out.println(" Value " +b+ " is bigger than Value "+a); */
+
+/*public static void main(String[] args) {
+
+// TODO Auto-generated method stub
+int a,b,c;
+ Mom ob=new Mom();
+ ob.Geting_Input();
+ 
+ ob.abc();
+Scanner A=new Scanner(System.in);
+System.out.println("Enter Value 1 : ");
+a=A.nextInt();
+System.out.println("Enter Value 2 : ");
+b=A.nextInt();
+if(a>b)
+{
+	System.out.println(" Value " +a+ " is bigger than Value "+b);
+}
+else
+	System.out.println(" Value " +b+ " is bigger than Value "+a);
+}
+
+}
+/ public class Inheritance() */
