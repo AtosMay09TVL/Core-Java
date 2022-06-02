@@ -1,0 +1,18 @@
+
+package basic;
+
+
+public class Variables {
+
+	
+	int x=23,y=46;
+	public static void main(String[] args) {
+		
+		int z;
+		Variables v= new Variables();
+		z=v.x+v.y;
+		System.out.println("addition of"+v.x+"and"+v.y+ "is"+ z);
+
+	}
+
+}
