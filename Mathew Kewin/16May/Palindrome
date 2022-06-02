@@ -1,0 +1,17 @@
+class PalindromeExample{  
+ public static void main(String args[]){  
+  int rev,s=0,temp;    
+  int n=1234; 
+  
+  temp=n;    
+  while(n>0){    
+   rev=n%10;   
+   s=(s*10)+r;    
+   n=n/10;    
+  }    
+  if(temp==s)    
+   System.out.println("palindrome number ");    
+  else    
+   System.out.println("not palindrome");    
+}  
+}  
